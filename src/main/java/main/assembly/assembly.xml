@@ -1,0 +1,30 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.1.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.1.0 http://maven.apache.org/xsd/assembly-2.1.xsd">
+  <id>jar-with-dependencies</id>
+  <formats>
+    <format>jar</format>
+  </formats>
+
+  <includeBaseDirectory>false</includeBaseDirectory>
+
+  <files>
+    <!-- Добавляем папки в корне проекта -->
+    <file>
+      <source>Pcheck</source>
+      <outputDirectory>/</outputDirectory>
+    </file>
+    <file>
+      <source>JournalTrace</source>
+      <outputDirectory>/</outputDirectory>
+    </file>
+    <file>
+      <source>shell</source>
+      <outputDirectory>/</outputDirectory>
+    </file>
+    <file>
+      <source>everything</source>
+      <outputDirectory>/</outputDirectory>
+    </file>
+  </files>
+</assembly>
