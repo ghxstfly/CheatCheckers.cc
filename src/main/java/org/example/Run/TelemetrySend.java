@@ -11,8 +11,8 @@ import java.nio.charset.StandardCharsets;
 import org.json.JSONObject;
 
 public class TelemetrySend {
-    private final String botToken = "8130604600:AAGfXmdOCjI1YfElA70wJHOMwgakIUDAo9Y";
-    private final String chatId = "7327220669";
+    private final String botToken = "";
+    private final String chatId = "";
 
     public static void main(String[] args) {
         TelemetrySend bot = new TelemetrySend();
